@@ -48,10 +48,17 @@ body {
 .secondary-content { /* Main Section */
     background-color: white;
     flex: 1;
+    padding: 20px 40px 40px 40px;
+}
+
+.images {
+    display: flex;
+    gap: 40px;
 }
 
 .secondary-content h3 {
-    color: #1F2937
+    color: #1F2937;
+    text-align: center;
 }
 
 .testimonial-block { /* Main Section */
