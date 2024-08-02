@@ -1,89 +1,157 @@
-html {
-    background-color: black;
-}
-
 body {
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 95vw;
-    height: 95vh;
 }
 
-.top-section { /* Main Section */
+.top-container { /* Main Section */
     background-color: #1F2937;
     color: #F9FAF8;
     flex: 1;
 }
 
-.header {
+.logo {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.header-section { /* Secondary Section */
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.top-section ul {
+.header-section ul {
     color: #E5E7EB;
+    font-size: 18px;
     display: flex;
     list-style-type: none;
     gap: 35px;
 }
 
-.top-section p {
-    color: #E5E7EB;
+.main-content-section { /* Secondary Section */
+    display: flex;
+    padding: 80px 20px 80px 20px;
+    margin: auto;
+    justify-content: center;
+    max-width: 800px;
 }
 
-.main-content {
-    display: flex;
-    padding: 40px 20px 40px 20px;
-    justify-content: center;
+.main-content-section h1 {
+    font-size: 48px;
+    font-weight: extra bold;
+    margin: 0px;
+}
+
+.main-content-section p {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 0px 0px 20px 0px;
+}
+
+.main-content-section button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 5px 25px 5px 25px;
+    border-radius: 8px;
 }
 
 .title-button {
-    width: 350px;
+    width: 420px;
     height: 250px;
     margin-right: 35px;
 }
 
-.secondary-content { /* Main Section */
+.secondary-content-container { /* Main Section */
     background-color: white;
     flex: 1;
-    padding: 20px 40px 40px 40px;
+    padding: 20px 60px 40px 60px;
 }
 
-.images {
+.images-section {
     display: flex;
-    gap: 40px;
+    padding-top: 10px;
+    justify-content: center;
+    gap: 30px;
 }
 
-.secondary-content h3 {
-    color: #1F2937;
+.images-section img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.info {
+    max-width: 100px;
     text-align: center;
 }
 
-.testimonial-block { /* Main Section */
+.info p {
+    margin-top: 5px;
+}
+
+.secondary-content-container h3 {
+    color: #1F2937;
+    text-align: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+
+}
+
+.testimonial-block-container { /* Main Section */
     background-color: #E5E7EB;
     color: #1F2937;
     flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
 }
 
-.sign-up-block { /* Main Section */
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 0;
+}
+
+.quote-person {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: right;
+    margin: 0px 100px 0px 0px
+}
+
+.sign-up-block-container { /* Main Section */
     background-color: white;
     color: white;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex: 1;
 }
 
-.sign-up-block .call-to-action {
-    background-color: #3882F6;
+.call-to-action {
+    background: #3882F6;
+    border-radius: 15px;
+    padding: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer { /* Main Section */
     background-color: #1F2937;
     color: #E5E7EB;
     flex: 0;
+    text-align: center;
 }
-
-
 
 /* div {
     border: 1px solid red;
