@@ -140,10 +140,28 @@ body {
 .call-to-action {
     background: #3882F6;
     border-radius: 15px;
-    padding: 20px;
+    padding: 40px;
     width: 80%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+
+.call-text h2, .call-text p {
+    margin: 0;
+}
+
+.call-to-action button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    width: 130px;
+    border-color: white;
+    border-width: 2px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bolder;
+    box-shadow: none;
 }
 
 .footer { /* Main Section */
